@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms-Level-2_3</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section>
+        <form action="">
+            <fieldset>
+                <legend>Register form</legend>
+                <div>
+                    <label for="name" class="required label-gap">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <label for="surname" class="required label-gap">Surname</label>
+                    <input type="text" name="surname" id="surname" placeholder="Surname" required>
+                </div>
+                <div>
+                    <label for="email" class="required label-gap">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <p class="label-gap">Gender</p>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="male">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female">
+                </div>
+                <div>
+                    <label for="picture" class="label-gap">Picture</label>
+                    <input type="file" name="" id="">
+                </div>
+                <div>
+                    <label for="country" class="label-gap">Country</label>
+                    <select name="" id="">
+                        <option value="germany">Germany</option>
+                        <option value="france">France</option>
+                        <option value="usa">USA</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="pl" class="vertical-align label-gap">Prefered Language</label>
+                    <select name="" id="" multiple>
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">JS</option>
+                        <option value="">React</option>
+                    </select>
+                    <p class="inline-block">(To choose more than one use cmd key)</p>
+                </div>
+                <div>
+                    <p class="inline-block label-gap">Fileded of activity</p>
+                    <input type="checkbox" name="it" id="it">
+                    <label for="it">IT</label>
+                    <input type="checkbox" name="design" id="design">
+                    <label for="design">Design</label>
+                    <input type="checkbox" name="other" id="other">
+                    <label for="other">Other</label>
+                </div>
+                <input type="button" value="Send">
+                <input type="button" value="Cancel">
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
